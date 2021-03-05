@@ -18,7 +18,7 @@
             "WEBSOCKET_ENABLED": "false"
           },
           "volumeMounts": {
-            "/data": "bitwarden-cfs"
+            "/data": "bwdata"
           }
         }
       }
@@ -27,7 +27,7 @@
       "addons": [
         {
           "type": "CFS",
-          "name": "bitwarden-cfs"
+          "name": "bwdata"
         }
       ]
     }
